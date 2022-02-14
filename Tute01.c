@@ -5,7 +5,14 @@
 #include <stdio.h>
 
 int main() {
-  
+  int num1, num2;
+  float ave;
+  printf("Enter subject one marks :");
+  scanf("%d", &num1);
+  printf("Enter subject two marks :");
+  scanf("%d", &num2);
+  ave = (num1 + num2) / 2;
+  printf("Average is : %.2f", ave);
   return 0;
 }
 
